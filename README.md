@@ -23,18 +23,18 @@ This project demonstrates how different **pathfinding algorithms** work by visua
 
 ---
 
-🧠 Algorithms Implemented
+## 🧠 Algorithms Implemented
 
-| Algorithm                      | Description                                                                  |
-| ------------------------------ | ---------------------------------------------------------------------------- |
-| **A***                         | Heuristic-based optimal pathfinding using cost + estimated distance          |
+| Algorithm | Description |
+|-----------|-------------|
+| **A*** | Heuristic-based optimal pathfinding using cost + estimated distance |
 | **Breadth-First Search (BFS)** | Explores level by level and guarantees the shortest path in unweighted mazes |
-| **Bidirectional BFS**          | Runs BFS simultaneously from start and goal to reduce search space           |
-| **Depth-First Search (DFS)**   | Explores deeply along paths; fast but not guaranteed optimal                 |
-| **Dijkstra’s Algorithm**       | Guarantees shortest path by exploring lowest-cost nodes first                |
-| **Greedy Best-First Search**   | Uses heuristic only; fast but may produce suboptimal paths                   |
-| **Jump Point Search (JPS)**    | Optimized A* variant for grid-based mazes, skips unnecessary nodes           |
-| **Uniform Cost Search (UCS)**  | Expands nodes based on path cost; equivalent to Dijkstra without heuristics  |
+| **Bidirectional BFS** | Runs BFS simultaneously from start and goal to reduce search space |
+| **Depth-First Search (DFS)** | Explores deeply along paths; fast but not guaranteed optimal |
+| **Dijkstra's Algorithm** | Guarantees shortest path by exploring lowest-cost nodes first |
+| **Greedy Best-First Search** | Uses heuristic only; fast but may produce suboptimal paths |
+| **Jump Point Search (JPS)** | Optimized A* variant for grid-based mazes, skips unnecessary nodes |
+| **Uniform Cost Search (UCS)** | Expands nodes based on path cost; equivalent to Dijkstra without heuristics |
 
 ---
 
@@ -42,17 +42,14 @@ This project demonstrates how different **pathfinding algorithms** work by visua
 
 <img width="719" height="507" alt="image" src="https://github.com/user-attachments/assets/feb9f272-998c-46db-9e59-a7578ddc82df" />
 
-
 <img width="1214" height="672" alt="image" src="https://github.com/user-attachments/assets/24031524-637d-43b3-aadc-356b12b6ff3d" />
-
-
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Language:** Python 🐍
-- **Visualization:** Pygame / Matplotlib *(depending on your implementation)*
+- **Visualization:** Pygame / Matplotlib
 - **Concepts Used:**
   - Graph traversal
   - Heuristics
@@ -61,6 +58,7 @@ This project demonstrates how different **pathfinding algorithms** work by visua
 ---
 
 ## 📂 Project Structure
+
 ```
 3D-Maze-Solver/
 │
@@ -75,7 +73,7 @@ This project demonstrates how different **pathfinding algorithms** work by visua
 │   ├── uniform_cost_search.py
 │   └── base_solver.py          # Common solver interface
 │
-├── charts/                     
+├── charts/
 │   └── algorithm_comparison.png   # Performance charts & comparisons
 │
 ├── maze/                       # Maze generation & logic
@@ -93,10 +91,13 @@ This project demonstrates how different **pathfinding algorithms** work by visua
 ## ⚙️ Installation & Usage
 
 ### 1️⃣ Clone the Repository
+
 ```bash
-git clone https://github.com/UsmanDanial04/Algorithm-Analysis.git
+git clone https://github.com/taimoornasir-AI/Algorithm-Analysis.git
 cd Algorithm-Analysis
 ```
+
+---
 
 ## 🎯 Learning Outcomes
 
@@ -105,18 +106,22 @@ cd Algorithm-Analysis
 - Clean and modular Python architecture
 - Strong portfolio-level project for GitHub & LinkedIn
 
+---
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License.  
 You are free to use, modify, and distribute it.
 
+---
 
 ## 👤 Author
 
-### Usman Danial
+### Taimoor Nasir
 📌 Aspiring Software Engineer | Python Developer | AI & Visualization Enthusiast
 
-🔗 LinkedIn: www.linkedin.com/in/usman-danial-b4568b289 
+🔗 GitHub: [https://github.com/taimoornasir-AI](https://github.com/taimoornasir-AI)
 
-⭐ If you like this project, don’t forget to star the repo!
+---
+
+⭐ If you like this project, don't forget to star the repo!
